@@ -1,0 +1,40 @@
+.movie {
+    border: 3px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-left: 46px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.image {
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.date {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.time {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.price {
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    color: #000000;
+}

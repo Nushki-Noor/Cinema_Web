@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.feedback {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.feedback p {
+    margin: 0;
+}
+
+.feedback p strong {
+    font-weight: bold;
+}
+
+.no-feedback {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 720px;
+  }
+  .backg{
+    background: #000000;
+    padding:30px 945px;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn2 {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	 font-size:20px;
+	 font-weight:bold;
+	 padding:8px 16px;
+	 text-align:center;
+	 text-decoration:none;	
+	 letter-spacing: 1.5px;
+	 color:#FFF;
+	 cursor:pointer;
+}
+
+.btn2:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+  .logout-btn{
+	top: 44px;
+	left: 1600px;
+	position: absolute;
+	font-family:'Times New Roman', Times, serif;
+	 font-size:18px;
+	 font-weight:bold;
+	 padding:8px 16px;
+	 text-align:center;
+	 text-decoration:none;	
+	 color:#000000;
+	 cursor:pointer;
+}
+
+.logout-btn:hover{
+	background-color: #000000;
+	color: #ffffff;
+  }
+
+  .search-box {
+    top: 40px;
+    left: 1240px;
+    width: 280px;
+    height: 25px;
+    border: 03px solid #000;
+    padding: 8px;
+    border-radius: 30px;
+    position:absolute;
+    }
+    
+    .search-input {
+    font-size:16px;
+    color:#000;
+    background:transparent;
+    border:0px;
+    outline:0px;
+    width:250px;
+    }
+    
+    .icon-search {
+    color:#000;
+    font-size:20px;
+    cursor: pointer;
+    }
+
+    .profile{
+        margin-top: 50px;
+        margin-left: 170px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 10px 20px;
+        height: 90px;
+        width: 1850px;
+      }
+      
+      .navbar-login {
+        display: flex;
+        margin-right: 20px;
+      }

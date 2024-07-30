@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    margin-top: 160px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin: 0;
+    color: #000000;
+}
+
+form {
+    display: inline;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 720px;
+  }
+  .backg{
+    background: #000000;
+    padding:30px 945px;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn2 {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	 font-size:20px;
+	 font-weight:bold;
+	 padding:8px 16px;
+	 text-align:center;
+	 text-decoration:none;	
+	 letter-spacing: 1.5px;
+	 color:#FFF;
+	 cursor:pointer;
+}
+
+.btn2:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+  .logout-btn{
+	top: 44px;
+	left: 1600px;
+	position: absolute;
+	font-family:'Times New Roman', Times, serif;
+	 font-size:18px;
+	 font-weight:bold;
+	 padding:8px 16px;
+	 text-align:center;
+	 text-decoration:none;	
+	 color:#000000;
+	 cursor:pointer;
+}
+
+.logout-btn:hover{
+	background-color: #000000;
+	color: #ffffff;
+  }
+
+    .profile{
+        margin-top: 50px;
+        margin-left: 170px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 10px 20px;
+        height: 90px;
+        width: 1850px;
+      }
+      
+      .navbar-login {
+        display: flex;
+        margin-right: 20px;
+      }
