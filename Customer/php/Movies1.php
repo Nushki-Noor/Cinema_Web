@@ -96,7 +96,7 @@ else {
         <br>
         <div class="cards">
             <?php
-            require_once("connection.php");
+            require_once("../../connection.php");
 
             $conn = mysqli_connect($servername, $username, $password, $dbname);
 
@@ -116,7 +116,7 @@ else {
                     echo '<div class="card">
                             <img src="'.$row["image"].'" >
                             <h2>'.$row["name"].'</h2>
-                            <a href="ticketBooking.php?name='.$name.'&date='.$date.'&time='.$time.'&price='.$price.'" class="MoreInfo">More Info</a>
+                            <a href="../../Customer/php/ticketBooking.php?name='.$name.'&date='.$date.'&time='.$time.'&price='.$price.'" class="MoreInfo">More Info</a>
                           </div>';
                 }
             } else {

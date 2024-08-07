@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cineplex - Ticket Booking</title>
     <link rel="shortcut icon" href="minilogo.jpg">
-    <link rel="stylesheet" href="ticketBooking.css" type="text/css">
+    <link rel="stylesheet" href="../../Customer/css/ticketBooking.css" type="text/css">
 
 </head>
 
@@ -44,7 +44,7 @@
 
                 <?php
                 session_start();
-                include_once "connection.php";
+                include_once "../../connection.php";
 
                 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["seats"])) {
                     $name = $_POST["name"];
